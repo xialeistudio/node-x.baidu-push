@@ -1,6 +1,6 @@
 {
   "name": "x.baidu-push",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "百度推送NodeJS SDK",
   "main": "index.js",
   "scripts": {
