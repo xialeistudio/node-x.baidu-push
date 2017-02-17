@@ -8,13 +8,17 @@
 'use strict';
 module.exports = {
   apiKey: '百度推送apiKey',
- appSecret: '百度推送appSecret'
+  appSecret: '百度推送appSecret'
 };
 ```
 
 + 更改测试用例中的channel_id,tag等等为自己的参数
 + 执行测试 `npm run test`
+
+
 #单元测试的时候请特别注意pushAll的测试用例，不要轻易推送测试消息给线上的所有用户。
+
+
 ##功能列表
 1. 推送单台设备
 2. 推送所有设备
