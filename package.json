@@ -7,7 +7,10 @@
     "lint": "eslint .",
     "test": "mocha"
   },
-  "keywords": [],
+  "keywords": [
+    "baidu",
+    "push"
+  ],
   "author": "xialeistudio <xialeistudio@gmail.com>",
   "license": "MIT",
   "engines": {
@@ -26,5 +29,16 @@
   "pre-commit": [
     "lint",
     "test"
-  ]
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xialeistudio/node-x.baidu-push.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xialeistudio/node-x.baidu-push/issues"
+  },
+  "homepage": "https://github.com/xialeistudio/node-x.baidu-push#readme"
 }
