@@ -1,6 +1,6 @@
 {
   "name": "x.baidu-push",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "百度推送NodeJS SDK",
   "main": "index.js",
   "scripts": {
@@ -26,10 +26,6 @@
     "mocha": "^3.2.0",
     "pre-commit": "^1.2.2"
   },
-  "pre-commit": [
-    "lint",
-    "test"
-  ],
   "directories": {
     "test": "test"
   },
