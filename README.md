@@ -1,9 +1,9 @@
-#x.baidu-push
+# x.baidu-push
 百度推送NodeJs SDK，基于百度推送REST API 3.0开发。
 
-#单元测试的时候请特别注意pushAll的测试用例，不要轻易推送测试消息给线上的所有用户。
+# 单元测试的时候请特别注意pushAll的测试用例，不要轻易推送测试消息给线上的所有用户。
 
-##单元测试
+##  单元测试
 + 安装SDK `npm install x.baidu-push`
 + 在**x.baidu-push/test**目录新建**push.config.js**，内容如下
 
@@ -18,7 +18,7 @@ module.exports = {
 + 更改测试用例中的channel_id,tag等等为自己的参数
 + 执行测试 `npm run test`
 
-##功能列表
+## 功能列表
 1. 推送单台设备
 2. 推送所有设备
 3. 推送指定标签组
